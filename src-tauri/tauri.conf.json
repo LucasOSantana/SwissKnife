@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "sukunai",
+  "productName": "SwissKnife",
   "version": "1.0.0",
-  "identifier": "com.sukunai.app",
+  "identifier": "com.swissknife.app",
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "sukunai",
+        "title": "Swiss Knife",
         "width": 800,
         "height": 600
       }
