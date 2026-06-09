@@ -1,0 +1,164 @@
+{
+    "modules": {
+        "encode-decode": {
+            "name": "Encode/Decode",
+            "icon": "encode-decode",
+            "description": "Encode and decode text using various algorithms.",
+            "path": "/encode-decode",
+            "children": [
+                {
+                    "name": "Base64",
+                    "icon": "base64",
+                    "description": "Encode and decode text using Base64.",
+                    "path": "/encode-decode/base64"
+                },
+                {
+                    "name": "URL",
+                    "icon": "url",
+                    "description": "Encode and decode URL using percent-encoding.",
+                    "path": "/encode-decode/url"
+                },
+                {
+                    "name": "Hexadecimal",
+                    "icon": "hex",
+                    "description": "Encode and decode text in hexadecimal format.",
+                    "path": "/encode-decode/hex"
+                },
+                {
+                    "name": "JWT",
+                    "icon": "jwt",
+                       "description": "Encode and decode JSON Web Tokens.",
+                    "path": "/encode-decode/jwt"
+                }
+            ]
+        },
+        "converter": {
+            "name": "Converter",
+            "icon": "converter",
+            "description": "Convert between different data formats and units.",
+            "path": "/converter",
+            "children": [
+                {
+                    "name": "Case Converter",
+                    "icon": "case",
+                    "description": "Convert text to different case styles.",
+                    "path": "/converter/case"
+                },
+                {
+                    "name": "Number Base Converter",
+                    "icon": "number-base",
+                    "description": "Convert numbers between different bases (binary, octal, decimal, hexadecimal).",
+                    "path": "/converter/number-base"
+                },
+                {
+                    "name": "Unit Converter",
+                    "icon": "unit",
+                    "description": "Convert between various units of measurement.",
+                    "path": "/converter/unit"
+                },
+                {
+                    "name": "Color Converter",
+                    "icon": "color",
+                    "description": "Convert colors between formats.",
+                    "path": "/converter/color"
+                },
+                {
+                    "name": "JSON ↔ YAML",
+                    "icon": "json-yaml",
+                    "description": "Convert between JSON and YAML.",
+                    "path": "/converter/json-yaml"
+                },
+                {
+                    "name": "Date ↔ Unix",
+                    "icon": "date",
+                    "description": "Convert Dates and Unix timestamps.",
+                    "path": "/converter/date"
+                },
+                {
+                    "name": "Image Converter",
+                    "icon": "image",
+                    "description": "Convert images between formats using Rust.",
+                    "path": "/converter/image"
+                }
+                ]
+
+
+        },
+        "formatter": {
+            "name": "Formatter",
+            "icon": "formatter",
+            "description": "Format code and text in various styles.",
+            "path": "/formatter",
+            "children": [
+                {
+                    "name": "JSON",
+                    "icon": "json",
+                    "description": "Format and validate JSON data.",
+                    "path": "/formatter/json"
+                },
+                {
+                    "name": "XML",
+                    "icon": "xml",
+                    "description": "Format and validate XML data.",
+                    "path": "/formatter/xml"
+                },
+                {
+                    "name": "SQL Formatter",
+                    "icon": "database",
+                    "description": "Format and validate SQL data.",
+                    "path": "/formatter/sql"
+                },
+                {
+                    "name": "Text Inspector",
+                    "icon": "text-inspector",
+                    "description": "Analyze text statistics and frequency.",
+                    "path": "/formatter/text-inspector"
+                }
+                ]
+
+
+        },
+        "generator": {
+            "name": "Generator",
+            "icon": "generator",
+            "description": "Generate random data, such as passwords and UUIDs.",
+            "path": "/generator",
+            "children": [
+                {
+                    "name": "Password Generator",
+                    "icon": "password",
+                    "description": "Generate strong and secure passwords.",
+                    "path": "/generator/password"
+                },
+                {
+                    "name": "UUID Generator",
+                    "icon": "uuid",
+                    "description": "Generate universally unique identifiers (UUIDs).",
+                    "path": "/generator/uuid"
+                },
+                {
+                    "name": "Lorem Ipsum Generator",
+                    "icon": "lorem-ipsum",
+                    "description": "Generate placeholder text using Lorem Ipsum.",
+                    "path": "/generator/lorem-ipsum"
+                },
+                {
+                    "name": "Email Generator",
+                    "icon": "email",
+                    "description": "Generate realistic email addresses.",
+                    "path": "/generator/email"
+                },
+                {
+                    "name": "Hash Generator",
+                    "icon": "hash",
+                    "description": "Generate MD5, SHA-1, SHA-256 and SHA-512 hashes.",
+                    "path": "/generator/hash"
+                }
+
+            ]
+
+
+        }
+    },
+    "projects":{}
+}

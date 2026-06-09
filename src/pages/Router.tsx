@@ -1,0 +1,51 @@
+import {
+  Base64Page,
+  EmailPage,
+  UrlPage,
+  HexPage,
+  HomePage,
+  JwtPage,
+  LoremPage,
+  PasswordPage,
+  UuidPage,
+  CasePage,
+  NumberBasePage,
+  UnitPage,
+  ColorPage,
+  JsonYamlPage,
+  DatePage,
+  JsonPage,
+  XmlPage,
+  SqlPage,
+  TextInspectorPage,
+  HashPage,
+  ImageConverterPage,
+} from "./index";
+
+const pageMap: Record<string, JSX.Element> = {
+  "/": <HomePage />,
+  "/encode-decode/base64": <Base64Page />,
+  "/encode-decode/hex": <HexPage />,
+  "/encode-decode/jwt": <JwtPage />,
+  "/encode-decode/url": <UrlPage />,
+  "/formatter/json": <JsonPage />,
+  "/formatter/xml": <XmlPage />,
+  "/formatter/sql": <SqlPage />,
+  "/formatter/text-inspector": <TextInspectorPage />,
+  "/converter/case": <CasePage />,
+  "/converter/number-base": <NumberBasePage />,
+  "/converter/unit": <UnitPage />,
+  "/converter/color": <ColorPage />,
+  "/converter/json-yaml": <JsonYamlPage />,
+  "/converter/date": <DatePage />,
+  "/converter/image": <ImageConverterPage />,
+  "/generator/password": <PasswordPage />,
+  "/generator/uuid": <UuidPage />,
+  "/generator/lorem-ipsum": <LoremPage />,
+  "/generator/email": <EmailPage />,
+  "/generator/hash": <HashPage />,
+};
+
+export function Router({ activePath }: { activePath: string }) {
+  return pageMap[activePath] ?? <HomePage />;
+}
