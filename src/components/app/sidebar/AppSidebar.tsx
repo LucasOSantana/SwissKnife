@@ -1,6 +1,5 @@
 import {
   PocketKnife,
-  ChevronsUpDown,
   ChevronDown,
   FileText,
   Fingerprint,
@@ -29,13 +28,9 @@ import {
   ImageIcon,
 } from "lucide-react"
 
-
-
-
 import {
   Sidebar,
   SidebarContent,
-  SidebarFooter,
   SidebarHeader,
   SidebarGroup,
   SidebarGroupLabel,
@@ -44,7 +39,6 @@ import {
   SidebarMenuItem
 } from "@/components/ui/sidebar"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import sidebarConfig from "./sidebar.json"
 import { useMemo, useState } from "react"
 import { AppInputGroup } from "../input-group/AppInputGroup"

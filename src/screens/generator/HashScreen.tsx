@@ -1,4 +1,4 @@
-import { useCallback, useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { AppCard } from "@/components/app/card/AppCard";
 import { Label } from "@/components/ui/label";
 import { Fingerprint, Copy } from "lucide-react";
